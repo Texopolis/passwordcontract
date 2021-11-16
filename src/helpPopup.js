@@ -1,4 +1,4 @@
-import react, {useState} from "react"
+import React, {useState} from "react"
 import metaMaskIcon from './metamask.png'
 import {AwesomeButton} from 'react-awesome-button'
 import 'react-awesome-button/dist/themes/theme-c137.css';
@@ -36,6 +36,8 @@ const helpBtn= () =>{
             <AwesomeButton
                     type="primary"
                     size='small'
+                    ripple={true}
+
                     action={toggleHelp}>HELP
             </AwesomeButton>
             {helpDisplay?showHelp():hideHelp()}
