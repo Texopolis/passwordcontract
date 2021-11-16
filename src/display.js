@@ -104,7 +104,7 @@ const Display= ()=>{
                 <AwesomeButton
                      id='generatePassBtn'
                      type="toggle"
-                     size='large'
+                     size='medium'
                      disabled={buttonClicked2}
                      action= {()=>{fetchRandomNumber(); setDisabled2()}} >get password
                 </AwesomeButton>
